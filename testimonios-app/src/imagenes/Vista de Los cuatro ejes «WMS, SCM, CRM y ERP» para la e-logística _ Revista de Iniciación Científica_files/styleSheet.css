@@ -1,0 +1,129 @@
+body{
+	font-size: 14px;
+}
+
+#headerNavigationContainer{
+	
+	background:#ffffff;
+	width:100%;
+	text-align: left;
+	padding: 0px;
+	margin:0px auto;
+	border: 0px;
+	border-radius: 0px;
+}
+
+
+.encabezado{
+	
+	background: url(../../journals/4/pageHeaderLogoImage_es_ES.jpg) no-repeat;
+	background-position:center center;
+	background-color:#00237b;
+	width:100%;
+	text-align: left;
+	padding: 0px;
+	margin:0px auto;
+	border: 0px;
+	border-radius: 0px;
+	height: 245px;
+	margin-bottom: 25px;
+	
+}
+
+.buscar{
+	width: 100%;
+	background:rgba(0,0,0,0.50);
+	#margin-bottom: 25px;
+	padding: 5px 0px;
+	bottom: 0px;
+	margin-top: 155px;
+
+}
+
+
+
+.navbar-brand-logo img {
+    display: block;
+    width: auto;
+    max-height:none;
+}
+
+.menu-banner{
+	float: left;
+	margin-right: 15px;
+	margin-top:9px;
+}
+
+.menu-banner  a:link, 
+.menu-banner  a:visited,
+.menu-banner  a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu-banner  a:hover{
+	color: #fffff;
+	text-decoration: underline;
+}
+
+
+.media-heading h1, .media-heading h2, .media-heading h3, .media-heading h4, 
+.media-heading h5, .media-heading h6, h1.media-heading, h2.media-heading, 
+h3.media-heading, h4.media-heading, h5.media-heading, h6.media-heading{
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+
+/*------------------- titulo de los articulos en galerada --------*/
+
+ h3 > a{
+	color:#00237b;
+
+}
+
+h3 > a:hover{
+	color: #474747;
+}
+
+
+
+
+/*-------------------------boton PDF Y HTML --------------------*/
+
+.btn-primary, .btn-primary:link, .btn-primary:active, .btn-primary:visited{
+    
+	background: #00237b;
+    border: 1px solid #172C5E;
+  }
+
+.btn-primary:hover {
+    
+	background: #172C5E;
+    border: 1px solid #172C5E;
+  }
+
+ 
+ /*------------------- IMAGEN DEL FOOTER OJS ----------------------*/
+
+
+body > div > footer > div > div > div.col-md-5 > a > img{
+	margin-top: 10px;
+	width: 100px;
+}
+
+
+/*-------------------------boton de citas--------------------*/
+
+.btn-default, .btn-default:hover, .pkp_block.block_make_submission a{
+
+	background: #00237b;
+    border: 1px solid #172C5E;
+  }
+
+  .btn-default, .btn-default:hover, .pkp_block.block_make_submission a:hover{
+
+	background: #172C5E;
+    border: 1px solid #172C5E;
+  }
+

@@ -1,0 +1,774 @@
+body{
+	font-size: 14px;
+	color: #282728 !important;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.mensaje{
+	color: #880473;
+	font-size: 15px;
+}
+
+
+/*--------------  pagina de registro -----------------*/
+ /*---------------------------------------------------*/
+
+li.context > fieldset> legend{
+    font-size: 0.9rem;
+    color: #5e004f; 
+    font-weight: normal;
+
+}
+
+#register > fieldset:nth-child(6) > legend:nth-child(1){
+	font-size: 1.1rem;
+    color: #5e004f !important; 
+    font-weight: bold;
+    margin-top: 25px;
+    display: block;
+}
+
+.contexts{
+	padding: 0px;
+}
+
+ ul > li.context{
+	list-style-type: none;
+ }
+
+ ul > li .name{
+ 	
+ 	font-weight: bold;
+ 	color: #282728;
+ 	font-size: 0.9rem;
+ 	display: block;
+ 	margin-top: 10px;
+ }
+
+ 
+.register-form-buttons >.submit, .register-form-buttons> .login{
+	background: #5e004f; 
+	border:1px solid #440339;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.register-form-buttons >.submit:hover, .register-form-buttons> .login:hover{
+	background: #282728; 
+	border:1px solid #282728;
+	display: inline-block;
+}
+
+ /*---------------------------------------------------*/
+  /*---------------------------------------------------*/
+ /*---------------------------------------------------*/
+
+
+
+ form.pkp_search button{
+ 	color: #fff;
+    background-color: #3e3f3f;
+    border-color: #302f2f;
+    padding: 7px 12px;
+    border-radius: 3px;
+     cursor: pointer;
+}
+
+ form.pkp_search button:hover,  form.pkp_search button.focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #302f2f;
+}
+
+
+
+
+.pkp_search > input{
+    display: inline-block;
+    width: 70%;
+    height: 36px;
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #777;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.about_site{
+	padding: 15px 0px;
+}
+
+
+#headerNavigationContainer{
+	
+	background:#ffffff;
+	width:100%;
+	text-align: left;
+	padding: 0px;
+	margin:0px auto;
+	border: 0px;
+	border-radius: 0px;
+}
+
+
+.encabezado{
+	
+	background: url(../site/fondo-banner-portal.jpg) no-repeat;
+	background-position:center center;
+	background-color:#5e004f;
+	width:100%;
+	text-align: left;
+	padding: 0px;
+	margin:0px auto;
+	border: 0px;
+	border-radius: 0px;
+	height: 245px;
+	margin-bottom: 35px;
+	
+}
+
+.buscar{
+	width: 100%;
+	background:rgba(0,0,0,0.50);
+	#margin-bottom: 25px;
+	padding: 7px 0px;
+	bottom: 0px;
+	margin-top: 18px; /*155*/
+
+}
+
+
+
+.navbar-brand-logo img {
+    display: block;
+    width: auto;
+    max-height:none;
+}
+
+.menu-banner{
+	float: left;
+	margin-right: 15px;
+	margin-top:9px;
+}
+
+.menu-banner  a:link, 
+.menu-banner  a:visited,
+.menu-banner  a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu-banner  a:hover{
+	color: #fffff;
+	text-decoration: underline;
+}
+
+a{
+	color:#880473;
+}
+
+.media-heading h1, .media-heading h2, .media-heading h3, .media-heading h4, 
+.media-heading h5, .media-heading h6, h1.media-heading, h2.media-heading, 
+h3.media-heading, h4.media-heading, h5.media-heading, h6.media-heading{
+	font-size: 14px !important;
+	font-weight: bold;
+}
+
+.badge{
+	background:#5e004f;
+}
+
+.dropdown-menu > li > a:hover{
+	background:#5e004f;	
+}
+
+/*.navbar-default .nav > li.dropdown > a{
+	color: #777777;
+}*/
+#main-navigation >li > a{
+	 color:#ffffff;
+}
+
+
+#main-navigation .navbar-default .nav > li > a:hover, 
+#main-navigation .header_view .nav > li > a:hover{
+	 color:#959395;
+	 text-decoration: underline;
+}
+
+
+
+#main-navigation  > li > a:hover{
+	 color:#959395;
+	 text-decoration: underline;
+
+}
+
+/* ------------------------------------- detalles de articulo article_details.tpl / article_summary.tpl --------------------------- */
+
+.item.keywords{
+	display: block;
+	margin: 10px 0px 20px 0px;
+}
+.item.keywords > h3 {
+	color:#444;
+	font-size: 15px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	text-align:left;
+	padding: 0px;
+
+}
+
+.issn{
+	font-weight: bold;
+	color:#444;
+	font-size: 13px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 12px 0px 12px 0px;
+}
+
+.issn > .details{
+	font-weight: normal;
+	
+}
+
+.article-author-affilitation{
+	color: #797879;
+}
+
+.panel-heading{
+	color: #797879;
+	font-size: 12px;
+}
+
+.panel_section{
+	color:#444;
+	font-size: 14px;
+}
+
+
+div.panel{
+	box-shadow: 0 0px 0px rgba(0,0,0,0);
+	margin-bottom: 0px;
+}
+
+header > h1 {
+	font-size: 28px;
+}
+
+
+#summary > h2, .article-references > h2{
+	font-size: 22px;
+}
+
+.article-more-details > div.panel.panel-default.how-to-cite > div.panel-heading{
+	color:#444;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.article-more-details > div.article-references > div{
+	color:#444;
+	font-size: 13px;
+}
+
+ 
+
+
+/*------------------------------ detalles del Journal -issu_toc.tpl-------------------------*/
+
+.galleys{
+	display: block;
+	width: 100%;
+	margin: 10px 0px;
+	overflow: hidden;
+}
+
+.meta > .authors, .galleys > .page-header{
+	display: inline-block;
+	width: 90%;
+	float: left;
+}
+
+ .galleys > .page-header{
+ 	margin: 0px;
+ }
+
+.media-body > .pages, .galleys > .btn-group{
+	display: inline-block;
+	width: 8%;
+	float: right;
+}
+
+.galleys > .btn-group{
+	margin-top: 10px;
+}
+
+.media-list .btn-group{
+	display: block;
+	width: 100%;
+	margin: 6px 0px 6px 0px;
+	float: left;
+
+}
+
+header.page-header {
+	display: none;
+}
+
+
+/*----------------------------- listado de revistas indexSite.tpl -------------------- */
+
+
+
+.journals .page-header, .journals .current{
+	display: none;
+}
+
+.journals .media-list{
+
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 30px;
+}
+
+.journals .media-heading{
+	display: block;
+	width: 100%;
+	padding: 14px 10px 0px 10px;
+	text-align: center;
+	font-size: 17px;
+	background: #ddd;
+}
+
+
+
+.journals .view{
+	display: block;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+.journals .issn{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 5px 0px;
+}
+
+.journals .issn2{
+	padding: 6px 0px;
+}
+
+
+.journals .description{
+	display: none;
+}
+
+.journals .media{
+	display: inline-block;
+	width: 21.5%;
+	margin: 0px 3.2% 42px 0px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.30);
+	vertical-align: top;
+	background: #ddd;
+		-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+
+}
+
+.journals .media:hover{
+	box-shadow: 0px 0px 12px 6px rgba(0,0,0,0.50);
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+
+.journals .media-left{
+	display: block;
+}
+
+ .media-left img {
+   max-width: 100%; /*105%*/
+   border-radius: 12px 12px 0px 0px;
+
+}
+
+.panel-body{
+	font-size: 12px;
+}
+
+.footer{
+	background: #ddd;
+	    padding: 2em;
+    margin-top: 4em;
+}
+
+.footer h3{
+
+	font-size: 23px;
+	    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #444;
+}
+
+.journals {
+    width: 102%;
+}
+
+
+/*---------------------- bloque aside ------------------------*/
+
+
+.panel > .list-group .list-group-item, .panel > .panel-collapse > .list-group .list-group-item, .pkp_block ul li{
+	border:0px;
+}
+
+.list-group-item, .pkp_block ul li{
+	padding: 0px;
+}
+
+
+
+ /*------------------- IMAGEN DEL FOOTER OJS ----------------------*/
+
+
+
+body > div > footer > div > div > div.col-md-5 > a > img{
+	margin-top: 10px;
+	width: 100px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/*---------------------------------------- MEDIA QUIERIES------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 575.98px) { 
+
+
+	.navbar-header{
+		display: none !important;
+	}
+
+	body{
+		/*background: #987652;*/
+	}
+
+	#nav-menu{
+		display: block !important;
+	}
+
+
+ .container{
+	    max-width: 575px !important;
+	}
+
+
+	.navbar-brand-logo img {
+   	 	display: block;
+    	width: 100%;
+   		 
+	}
+
+
+	.journals .media{
+		display: inline-block;
+		width: 45%;
+		margin: 0px 2.9% 36px 0px;
+	}
+
+	.encabezado{
+		background-position: left center !important;
+	}
+
+	.navbar .container img{
+		width: 100%;
+	}
+
+	.navbar-brand-logo img {
+
+    display: block;
+    width: 100%;
+    max-height: none;
+
+}
+
+.search_controls{
+		display: none;
+	}
+
+
+
+.navbar-form{
+		padding: 5px 5px;
+		border-top: 0px solid transparent;
+		border-bottom: 0px solid transparent;
+		display: inline-block;
+
+		width: 100%;
+	}
+
+
+
+	.navbar-form .form-control{
+		 display: inline-block;
+		 width: 100%;
+
+	}
+
+	.navbar-form .form-group {
+
+	    margin-left: 20px;
+	    display: inline-block;
+	    width: 70%;
+
+	}
+
+	.buscar{
+		margin-top: 100px !important;
+	}
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){ 
+
+
+	body{
+		/*background: #f62f79;*/
+	}
+
+
+	.container{
+	   width: 100% !important;
+	   max-width: 100%;
+	}
+
+
+	.navbar-brand-logo img {
+   	 	display: block;
+    	width: 100%;
+   		 
+	}
+
+
+	.journals .media{
+		display: inline-block;
+		width: 45%;
+		margin: 0px 2.9% 36px 0px;
+	}
+
+	.encabezado{
+		background-position: left center !important;
+	}
+
+.navbar-form{
+		padding: 5px 5px;
+		border-top: 0px solid transparent;
+		border-bottom: 0px solid transparent;
+		display: inline-block;
+
+		width: 100%;
+	}
+
+
+
+	.navbar-form .form-control{
+		 display: inline-block;
+		 width: 100%;
+
+	}
+
+	.navbar-form .form-group {
+
+	    margin-left: 20px;
+	    display: inline-block;
+	    width: 80%;
+
+	}
+
+	.buscar{
+		margin-top: 138px !important;
+	}
+
+.search_controls{
+		display: none;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+
+	body{
+		/*background: #11ff99;*/
+	}	
+
+
+	.navbar-form{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.navbar-form .form-control{
+		 display: inline-block;
+		 width: 100%;
+
+	}
+
+	.navbar-form .form-group {
+
+	    margin-bottom: 5px;
+	    display: inline-block;
+	    width: 60%;
+
+	}
+
+
+	.container{
+	   width: 100% !important;
+	   max-width: 100%;
+	}
+
+
+	.journals .media{
+		display: inline-block;
+		width: 45%;
+		margin: 0px 2.9% 36px 0px;
+	}
+
+	.media-left img {
+	   max-width: 105%; /*105%*/
+	   border-radius: 12px 12px 0px 0px;
+
+	}
+
+	.journals .media-heading{
+		font-size: 20px;
+
+	}
+
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.header_view .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-toggle:hover, 
+	.navbar-default .navbar-toggle:focus, 
+	.header_view .navbar-toggle:hover, 
+	.header_view .navbar-toggle:focus{
+		color: #ffffff;
+		background: rgba(0,0,0,0.5);
+	}
+
+	.buscar{
+		
+		background: rgba(0,0,0,0.7) !important;
+		/*margin-top: 21px !important;*/
+	}
+
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, 
+	.header_view .navbar-toggle:hover, .header_view .navbar-toggle:focus{
+		background: rgba(0,0,0,0.7) !important;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form, .header_view .navbar-collapse, .header_view .navbar-form{
+		border:0px !important;
+	}
+
+	.encabezado{
+		background-position: left center !important;
+	}
+
+	.main{
+		margin-top: 30px;
+	}
+
+
+	.nav > li > a {
+	    position: relative;
+	    display: block;
+	    padding: 10px 10px;
+	}
+
+.search_controls{
+		display: none;
+	}
+	
+	
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	body{
+		/*background: #2577ff;*/
+	}
+
+ 	.container{
+	   max-width: 100% !important;
+	   width: 100%;
+	}
+
+
+	.journals .media{
+		display: inline-block;
+		width: 28%;
+		margin: 0px 2.5% 36px 0px;
+	}
+
+
+
+	.search_controls{
+		display: none;
+	}
+
+ }
+
+
+
+@media (min-width:1200px) { 
+
+	.container{
+	    width: 1196px;
+	}
+
+	.navbar-toggle, .search_controls{
+	display: none;
+}
+
+}
+
+
+
+
+
+
+
+
