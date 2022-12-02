@@ -1,4 +1,5 @@
 import reactLogo from './assets/react.svg'
+import ListaDeTareas from './componentes/ListaDeTareas'
 import './App.css'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       </div>
       <div className="tareas-lista-principal">
         <h1>Mis Tareas</h1>
-        
+        <ListaDeTareas />
       </div>
     </div>
   )
